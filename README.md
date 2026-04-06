@@ -1,59 +1,90 @@
-# SKYBER - City Guide SASS Bootstrap Javascript Template
+# SKYBER — City Guide Website Template
 
-Live Site: https://shuvomallick01.github.io/SKYBER-City-Guide-SASS-Bootstrap-Javascript-Template/
+A responsive, multi-page city guide website template built with **HTML**, **Sass (SCSS)**, **Bootstrap 5**, and **vanilla JavaScript**.
+
+- **Live demo**: [View on GitHub Pages](https://ShuvaMallickPro.github.io/skyber-city-guide-website/)
+- **GitHub Repository**: [View repository](https://github.com/ShuvaMallickPro/skyber-city-guide-website)
 
 ## Overview
 
-This is a responsive website template for a city guide, built using SASS, Bootstrap, and JavaScript. It provides a user-friendly interface for users to explore and discover various attractions, events, restaurants, and other points of interest in a city. The template is highly customizable and can be easily integrated into any city guide or tourism-related project.
+SKYBER is a modern UI template for city guides / local directories. It includes ready-to-use pages for catalog browsing, place details, accounts, vendor flows, and content pages (blog, help center, etc.). Styles are authored in SCSS and compiled into `dist/css`.
 
-## Tools/Technologies
+## Tech stack
 
-- HTML/CSS
-- SASS
-- Bootstrap
-- Javascript
-- Google Fonts
-- Font Icons
-- More
+- **HTML5**
+- **Sass (SCSS)**
+- **Bootstrap 5**
+- **JavaScript (vanilla)**
+- **Swiper** (sliders)
+- **noUiSlider** (range slider)
+- **GLightbox** (lightbox)
+- **Google Fonts** + **Font Awesome** (icons)
 
-## Features
+## Key features
 
-- Responsive Design: The template is fully responsive and works seamlessly across different devices, including desktops, tablets, and mobile phones.
-- SASS Styling: It utilizes SASS (Syntactically Awesome Style Sheets) for efficient and modular CSS styling, making it easy to customize the appearance of the website.
-- Bootstrap Framework: The template is built on the popular Bootstrap framework, providing a solid foundation for responsive design, grid system, and pre-styled components.
-- Interactive Map: The template includes an interactive map feature, allowing users to explore different locations and points of interest within the city.
-- Event Listings: It provides a comprehensive list of upcoming events, enabling users to stay informed about concerts, festivals, exhibitions, and more.
-- Attraction Details: Users can access detailed information about attractions, including descriptions, images, contact information, and reviews.
-- Search Functionality: The template includes a search feature, enabling users to quickly find specific attractions, events, or restaurants within the city.
+- **Responsive layout** (mobile, tablet, desktop)
+- **Reusable Bootstrap components** (navbar, modals, cards, forms, etc.)
+- **SCSS-based styling** for easier customization and maintainability
+- **Interactive UI** (sliders, filters/range slider, gallery lightbox, account modals)
+- **Multi-page structure** ready for real content integration
 
-## Web Pages
+## Pages included
 
-- Home Page
-- Catalog: Categories and Filters
-- Catalog: Single Page - Gallery
-- Catalog: Single Page - Info
-- Catalog: Single Page - Reviews
-- Account: Sign In Modal
-- Account: Sign Up Modal
-- Account: Personal Info
-- Account: Favorites
-- Account: Reviews
-- Account: Notifications
-- Vendor: Add Property
-- Vendor: Property Promotion
-- Vendor: Reviews
-- Blog
-- Post
-- About
-- Help Center
-- Contact
-- 404
+- **Home** (`index.html`)
+- **Catalog**
+  - Categories & Filters (`catalog-categories-filters.html`)
+  - Single Place: Gallery (`catalog-single-place-gallery.html`)
+  - Single Place: Info (`catalog-single-place-info.html`)
+  - Single Place: Reviews (`catalog-single-place-reviews.html`)
+- **Accounts**
+  - Personal Info (`accounts-personal-info.html`)
+  - Favorites (`accounts-favorites.html`)
+  - Reviews (`accounts-reviews.html`)
+  - Notifications (`accounts-notification.html`)
+  - Sign In / Sign Up (modals on Home)
+- **Vendor**
+  - Add Business (`vendor-add-business.html`)
+  - Business Promotion (`vendor-business-promotion.html`)
+  - My Business (`vendor-my-business.html`)
+- **Content**
+  - Blog (`blog.html`)
+  - Post (`post.html`)
+  - About (`about.html`)
+  - Help Center (`help-center.html`)
+  - Contact (`contact.html`)
+  - 404 (`404-not-found.html`)
 
-## Support
+## Getting started (local)
 
-- Feel free to contact us any time. We have a dedicated team to provide you the best support.
+You can run it as a simple static site.
 
-## Attribute
+1. Install dependencies:
 
-- Buy this Finder Figma File From Envato Marketplace
-- The template was created by Shuvo Mallick.
+```bash
+npm install
+```
+
+2. Compile SCSS (watch mode):
+
+```bash
+npm run sass
+```
+
+3. Open `index.html` in your browser (or use any local static server).
+
+## Project structure
+
+- `scss/` — source SCSS
+- `dist/` — compiled CSS + plugin CSS
+- `assets/` — images, icons, fonts
+- `js/` — JavaScript and vendor scripts
+- `*.html` — pages
+
+## Credits
+
+- UI/template implementation: **Shuvo Mallick**
+- Inspired by Finder-style UI (design reference)
+
+## License
+
+This repository is provided as a template. If you plan to use it commercially, ensure that any third‑party assets (fonts, icons, plugins, images) are used in accordance with their respective licenses.
